@@ -5,6 +5,10 @@
 
 }
 
+body{
+    background-color: darkgray;
+}
+
 #one{
     background-color: grey;
     border: solid 1px black;
