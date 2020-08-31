@@ -1,0 +1,70 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#one{
+    background-color: grey;
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#two{
+    background-color: grey;
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#three{
+    background-color: grey;
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#four{
+    /* background-color: grey; */
+    border: solid 1px black;
+     margin: 10px;
+    /* padding: 10px; */
+}
+
+#four img{
+    width: 100%;
+}
+
+#five{
+    background-color: grey;
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+@media(min-width:600px){
+    #container{
+        display: flex;
+    }
+}
+
+@media(man-width:600px){
+    #container2{
+        display: flex;
+    }
+
+#four{
+    flex: 2;
+}
+
+#five{
+    flex: 4;
+}
+
+
+
+
+}
